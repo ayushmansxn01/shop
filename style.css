@@ -1,0 +1,705 @@
+ 
+      #loader{
+          position:fixed;
+          left: 0%;
+          z-index: 2;
+        background-color: black;
+          width:100%;
+          height: 100%;
+
+      }
+      #loaderh1{
+          position: absolute;
+          left: 30%;
+          top: 54%;
+          font-size: 15vh;
+
+      }
+      #looader{
+          width: 50%;
+          top: 25%;
+          left: 27%;
+          position: fixed;
+      }
+      *{
+          font-family: 'east sea dokdo';
+          color: white;
+      }
+      .body{
+          width: 100%;
+          height:90%;
+          background:rgb(85, 84, 84);
+          
+      }
+      body{
+          margin:0;
+          padding:0;
+          background-color:rgb(85, 84, 84);
+      }
+      @media (min-width: 800px){
+        #loader{
+          position: absolute;
+          left: 0%;
+          z-index: 2;
+        background-color: black;
+          width:100%;
+          height: 100%;
+        }
+        #loaderh1{
+          position: absolute;
+          left: 40%;
+          top: 70%;
+          font-size: 20vh;
+
+      }
+      #looader{
+          width: 32%;
+          top: 20%;
+          left: 33%;
+          position: absolute;
+      }
+        .header{
+          height: 40%;
+          background: rgb(24, 24, 24);
+          width: 100%;
+          position: absolute;
+      }
+      .body{
+        position: absolute;
+        height: 100%;;
+          top: 100%;
+      }
+      #logopic{
+          width: 25vw;
+          height: 50vh;
+          position: absolute;
+          left: 0%;
+          top: -23%;
+      
+
+      }
+      #h1logo{
+          font-family: 'east sea dokdo';
+          color: white;
+         top: 10%;
+         left: 35%;
+         font-size: 18vh;
+          position: absolute;
+          letter-spacing: 5px;
+      }
+      #hamburger{
+          position: absolute;
+          
+      }
+      #nav{
+position: absolute;
+color: white;
+text-decoration: none;
+right:10%;
+top: 5%;
+      }
+      ul{
+          display: flex;
+          margin: 5px;
+          text-decoration: none;
+          list-style: none;
+      }
+      li{
+          margin-left: 10%;
+
+      }
+      a{
+        color: rgb(209, 202, 202);
+        font-size: 7vh;
+        font-family: 'east sea dokdo';
+        text-decoration: none;
+        transition: 0.5s;
+      }
+      a:hover{
+          letter-spacing: 2px;
+          padding: 2px;
+          transition: 0.5s;
+          color: white;
+          text-decoration: none;
+      }
+      #bars{
+          display: none;
+      }
+ 
+#mega{
+    width: 15vw;
+    height: 15vw;
+    position: absolute;
+   top: 0%;
+}
+#term{
+    position: absolute;
+    width: 20vh;
+    height: 15vh;
+    display: none;
+}
+#toxic{
+    position: absolute;
+    width: 20vh;
+    height: 20vh;
+    left: 45%;
+    border: 1px solid rgb(0, 197, 66);
+}
+/*FOOTER TITLES*/
+.titles{
+   font-size: 5vh;
+}
+.titles{
+    position: absolute;
+    color: white;
+}
+#title1{
+ top: 15%;
+ font-size: 12vh;
+ 
+}
+#title2{
+    top:47%;
+    font-size: 10vh;
+}
+#title3{
+    top:68%;
+    font-size: 10vh;
+}
+#copy1{
+top: 30%;
+word-wrap: break-word;
+border: 1px solid white;
+background-color: black;
+color: rgb(9, 179, 9);
+}
+#copy2{
+    top: 60%;
+    border:1px solid white;
+    background-color: black;
+    color: rgb(9, 179, 9);
+}
+#copy3{
+    top: 80%;
+    border:1px solid white;
+    background-color: black;
+    color: rgb(9, 179, 9);
+}
+/*END FOOTER TITLES*/
+
+     /*FOOTER*/
+     footer{
+    background:rgb(32, 32, 32);
+    width: 100%;
+    height:110%;
+    position: absolute;
+    top: 167%;
+}
+/*END FOOTER*/
+#mega{
+    width: 20vh;
+    height: 20vh;
+}
+#malwares{
+    font-size: 20vh;
+    text-shadow: 0px 4px 10px black;
+    text-align: center;
+  position: absolute;
+  left: 35%;
+  top:-12%;
+}
+#copy{
+    font-size: 4vh;
+    position: absolute;
+    top: 94%;
+    left: 35%;
+}
+/* BESIDE IMAGES IN FOOTER*/
+.beside{
+    width:10%;
+    height: 15%;
+    position: absolute;
+}
+#beside1{
+    left:32%;
+    top: 15%;
+}
+#beside2{
+    left: 20%;
+    top: 45%;
+   
+}
+#beside3{
+    left: 10%;
+    top: 66%;
+
+}
+#linkies{
+    transition: 0.5s;
+    width: 25%;
+    height: 10%;
+    
+
+}
+.sociallink{
+    position: absolute;
+    top: 10%;
+    transition: 0.5s;
+}
+.sociallink:hover{
+    width: 8%;
+    height: 14%;
+    transition: 0.5s;
+}
+#github{
+    width: 7%;
+    height:13%;
+    left:60%;
+    transition: 0.5s;
+    
+}
+#github:hover{
+    width: 8%;
+    height: 14%;
+    transition: 0.5s;
+}
+#discord{
+    width: 7%;
+    height:13%;
+    left: 70%;
+    transition: 0.5s;
+}
+#discord:hover{
+    width: 8%;
+    height: 14%;
+    transition: 0.5s;
+}
+#telegram{
+    width: 7%;
+    height:13%;
+    left: 80%;
+    transition: 0.5s;
+}
+#telegram:hover{
+    width: 8%;
+    height: 14%;
+    transition: 0.5s;
+}
+/*Products for PC*/
+.products{
+    width: 30%;
+    height:100%;
+    background:rgb(141, 12, 12);
+    left: 5%;
+    position: absolute;
+    border: 2px solid rgb(228, 98, 98);
+    top: 55%;
+   
+}
+.products:hover{
+border: 2px solid rgb(16, 187, 16);
+}
+#prod1{
+background:url('https://upload.wikimedia.org/wikipedia/commons/f/f1/Raspberry_Pi_4_Model_B_-_Side.jpg');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+left: 1%;
+
+
+}
+#prod2{
+  
+    background:url('https://www.hackmod.de/WebRoot/Store12/Shops/78218349/54C9/673B/FA46/4FED/3B33/C0A8/2BB9/78BE/USB_Rubber_Ducky_USB_Hak5_Kaufen.jpg');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+left: 35%;
+}
+#prod3{
+
+background:url('https://a.pololu-files.com/picture/0J7808.1200.jpg?8a7bee07ca7ffbb11e11f74e99f5c3a9');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+margin-bottom: 100px;
+left: 70%;
+}
+#prod4{
+
+background:url('https://i0.wp.com/blog.privatewifi.com/wp-content/uploads/2015/12/wifi-pineapple.jpg?resize=720%2C340&ssl=1');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+left: 1%;
+top: 195%;
+}
+#prod5{
+    background:url('https://www.elektor.com/media/catalog/product/cache/1404d1bfd8e1ad71cc6f16950ff5c805/h/a/hackrf-one.jpg');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+left: 34%;
+top: 195%;
+}
+#prod6{
+    background:url('https://wichitaarts.com/wp-content/uploads/2017/03/shutterstock_285426443.jpg');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+left: 70%;
+top: 195%;
+}
+/*END PRODUCTS FOR PC*/
+
+/*PRICES FOR PC*/
+#price1{
+    position: absolute;
+    font-size: 6vh;
+    top: 155%;
+    left: 2%;
+    text-shadow: 0px 4px 10px black;
+}
+#price2{
+    position: absolute;
+    font-size: 6vh;
+    top: 155%;
+    left: 35%;
+    text-shadow: 0px 4px 10px black;
+}
+#price3{
+    position: absolute;
+    font-size: 6vh;
+    top: 155%;
+    left: 71%;
+    text-shadow: 0px 4px 10px black;
+}
+#price4{
+    position: absolute;
+    font-size: 6vh;
+    top: 295%;
+    left: 1%;
+    text-shadow: 0px 4px 10px black;
+}
+#price5{
+    position: absolute;
+    font-size: 6vh;
+    top: 295%;
+    left: 35%;
+    text-shadow: 0px 4px 10px black;
+}
+#price6{
+    position: absolute;
+    font-size: 6vh;
+    top: 295%;
+    left: 71%;
+    text-shadow: 0px 4px 10px black;
+}
+.buy{
+    position:absolute;
+    border: 1px solid rgb(102, 49, 49);
+    background:green;
+   width: 10%;
+   height:22%;
+   font-size: 3vh;
+   color: rgb(255, 242, 242);
+   border-radius: 10px;
+   box-shadow: 0px 4px 10px 2px rgb(71, 70, 70);
+
+}
+.buy:hover{
+    background-color: rgb(8, 187, 23);
+    box-shadow: 0px 2px 10px 0px black;
+}
+#buy1{
+    top: 157%;
+    left: 17%;
+}
+#buy2{
+    top: 157%;
+    left: 50%;
+}
+#buy3{
+    top: 157%;
+    left: 87%;
+    
+}
+#buy4{
+    top: 295%;
+    left: 17%;
+
+}
+#buy5{
+    top: 295%;
+    left: 50%;
+
+}
+#buy6{
+    top: 295%;
+    left: 87%;
+}
+/*END PRICES FOR PC*/
+      }
+     
+      @media(max-width: 768px){
+          .body{
+              height: 450%;
+              top: 100%;
+              position: absolute;
+          }
+      .header{
+          height: 40%;
+          background: rgb(36, 36, 36);
+          width: 100%;
+          position: absolute;
+      }
+      #logopic{
+          width: 50vw;
+          height: 50vh;
+          position: absolute;
+          left: -6%;
+          top: -27%;
+      
+
+      }
+      /*FOOTER IMAGES DISPLAY NONE*/
+      .beside{
+          display: none;
+      }
+      /* END OF FOOTER IMAGES DISPLAY NONE*/
+      #h1logo{
+          font-family: 'east sea dokdo';
+          color: white;
+         top: 10%;
+         left: 35%;
+         font-size: 18vh;
+          position: absolute;
+      }
+      #hamburger{
+         position: absolute;
+         
+      }
+    
+      #malwares{
+    color: white;
+    text-align: center;
+
+}
+#mega{
+    width: 15vw;
+    height: 15vw;
+    position: absolute;
+   top: 0%;
+}
+.products{
+    width: 90%;
+    height:26%;
+    left: 5%;
+    position: absolute;
+    border: 2px solid rgb(228, 98, 98);
+}
+.products:hover{
+border: 2px solid rgb(16, 187, 16);
+}
+#prod1{
+background:url('https://upload.wikimedia.org/wikipedia/commons/f/f1/Raspberry_Pi_4_Model_B_-_Side.jpg');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+#prod2{
+    top: 40%;
+    background:url('https://www.hackmod.de/WebRoot/Store12/Shops/78218349/54C9/673B/FA46/4FED/3B33/C0A8/2BB9/78BE/USB_Rubber_Ducky_USB_Hak5_Kaufen.jpg');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+#prod3{
+top: 72%;
+background:url('https://a.pololu-files.com/picture/0J7808.1200.jpg?8a7bee07ca7ffbb11e11f74e99f5c3a9');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+margin-bottom: 100px;
+}
+#prod4{
+    top: 104%;
+background:url('https://i0.wp.com/blog.privatewifi.com/wp-content/uploads/2015/12/wifi-pineapple.jpg?resize=720%2C340&ssl=1');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+#prod5{
+    top: 135%;
+background:url('https://www.elektor.com/media/catalog/product/cache/1404d1bfd8e1ad71cc6f16950ff5c805/h/a/hackrf-one.jpg');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+#prod6{
+    top: 166%;
+background:url('https://wichitaarts.com/wp-content/uploads/2017/03/shutterstock_285426443.jpg');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+
+
+/*NAVBAR DOWN HERE*/
+ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #262626;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background:none;
+    color:white;
+  }
+/*END NAV BAR*/
+
+/*FOOTER*/
+footer{
+    background:rgb(32, 32, 32);
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 395%;
+}
+#toxic{
+    position: absolute;
+    width: 30%;
+    height: 23%;
+    left: 34%;
+    border:1px solid white;
+}
+#term{
+    position: absolute;
+    width: 20%;
+    height: 13%;
+    left: 2%;
+    top: 85%;
+}
+#copy{
+    font-size: 4vh;
+    left: 28%;
+    top:87%;
+    position: absolute;
+}
+.titles{
+    position: absolute;
+    color: white;
+}
+#title1{
+ top: 20%;
+}
+#title2{
+    top:40%;
+}
+#title3{
+    top:60%;
+}
+#copy1{
+top: 30%;
+}
+#copy2{
+    top: 50%;
+}
+#copy3{
+    top: 70%;
+}
+#bars{
+    color: rgb(241, 239, 239);
+    position: absolute;
+    font-size:8vh;
+    left: 85%;
+}
+#price1{
+    position: absolute;
+    font-size: 5vh;
+    top: 34%;
+    left: 5%;
+    text-shadow: 0px 4px 10px black;
+}
+#price2{
+    position: absolute;
+    font-size: 5vh;
+    top: 67%;
+    left: 5%;
+    text-shadow: 0px 4px 10px black;
+}
+#price3{
+    position: absolute;
+    font-size: 5vh;
+    top: 99%;
+    left: 5%;
+    text-shadow: 0px 4px 10px black;
+}
+#price4{
+    position: absolute;
+    font-size: 5vh;
+    top: 130%;
+    left: 5%;
+    text-shadow: 0px 4px 10px black;
+}
+#price5{
+    position: absolute;
+    font-size: 5vh;
+    top: 161%;
+    left: 5%;
+    text-shadow: 0px 4px 10px black;
+}
+#price6{
+    position: absolute;
+    font-size: 5vh;
+    top: 192%;
+    left: 5%;
+    text-shadow: 0px 4px 10px black;
+}
+.buy{
+    position:absolute;
+    border: 1px solid rgb(102, 49, 49);
+    background: rgb(23, 145, 19);
+   width: 25%;
+   height:5%;
+   font-size: 3vh;
+   color: rgb(255, 242, 242);
+   border-radius: 10px;
+   box-shadow: 0px 4px 10px 2px rgb(71, 70, 70);
+
+}
+#buy1{
+top: 34%;
+left:50%;
+}
+#buy2{
+top: 66.5%;
+left:50%;
+}
+#buy3{
+    top: 98.5%;
+    left:50%;
+    
+}
+#buy4{
+    top: 130.3%;
+left:50%;
+height: 4.5%;
+}
+#buy5{
+    top: 161.3%;
+    left:50%;
+height: 4.5%;
+}
+#buy6{
+    top: 192%;
+    left:50%;
+}
+/*LINKIES DISPLAY NONE FOR MOBILE*/
+#linkies{
+    display: none;
+}
+/*END LINKIES DISPLAY NONE FOR MOBILE*/
+      }
+  
