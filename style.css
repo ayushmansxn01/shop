@@ -1,4 +1,4 @@
- 
+
       #loader{
           position:fixed;
           left: 0%;
@@ -392,7 +392,7 @@ top: 195%;
 .buy{
     position:absolute;
     border: 1px solid rgb(102, 49, 49);
-    background:green;
+    background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRpJ-Wpg1F6jwPGzZ5MbGcdTU3CbIviwepVw&usqp=CAU');
    width: 10%;
    height:22%;
    font-size: 3vh;
@@ -400,10 +400,6 @@ top: 195%;
    border-radius: 10px;
    box-shadow: 0px 4px 10px 2px rgb(71, 70, 70);
 
-}
-.buy:hover{
-    background-color: rgb(8, 187, 23);
-    box-shadow: 0px 2px 10px 0px black;
 }
 #buy1{
     top: 157%;
@@ -671,35 +667,34 @@ top: 30%;
 }
 #buy1{
 top: 34%;
-left:50%;
+left:44%;
 }
 #buy2{
 top: 66.5%;
-left:50%;
+left:44%;
 }
 #buy3{
     top: 98.5%;
-    left:50%;
+    left:44%;
     
 }
 #buy4{
     top: 130.3%;
-left:50%;
+left:44%;
 height: 4.5%;
 }
 #buy5{
     top: 161.3%;
-    left:50%;
+    left:44%;
 height: 4.5%;
 }
 #buy6{
     top: 192%;
-    left:50%;
+    left:44%;
 }
 /*LINKIES DISPLAY NONE FOR MOBILE*/
 #linkies{
     display: none;
 }
 /*END LINKIES DISPLAY NONE FOR MOBILE*/
-      }
-  
+}
