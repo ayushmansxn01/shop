@@ -6,6 +6,7 @@
   <meta name="keywords" content="Pentesting,TryHackMe,Hackthebox">
   <meta name="author" content="JusticeServed">
   <title>Legion-Shop</title>
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -16,12 +17,10 @@
 <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.js" integrity="sha512-E378bwaeZf1nwXeJGIwTB58A5gPt5jFU3u6aTGja4ZdRFJeo/N/REKnBgNZOZlH6JdnOPO98vg2AnSGaNfCMFQ==" crossorigin="anonymous"></script>
-
-
+<script src="index.js"></script>
 <link
 rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-  
     </head>
     <body>
         <div id="loader">
@@ -58,35 +57,58 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 <div id="prod1" class="products">
      
 </div>
+
+<!--LOGIN-->
+<div id="log1" class="login">
+    <div id="x" class="xx">X</div>
+<div id="avataricon1" class="avataricon">
+<img id="avatarin1" class="avatarin0"src="https://avatars2.githubusercontent.com/u/71190959?s=460&u=604e661be7d38625aee35f4de721a15bf514aeac&v=4">
+<!--<img id="avatarin" src="https://www.pngarts.com/files/3/Cool-Avatar-Transparent-Image.png">-->
+</div>
+<div id="form1" class="form">
+    <h2 id="h2f1" class="h2f">Message Me</h2>
+    <h3 id="email">Email: s1416013@usls.edu.ph</h3>
+    <div id="prodshow1" class="prodshow">
+        <h2 id="h2f2" class="h2f">Contacts</h2>
+        <a href=""><img id="githubb"class="socials"  src="https://github.githubassets.com/images/modules/logos_page/Octocat.png"></a>
+    <a href=""><img id="discordd"class="socials"  src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/91_Discord_logo_logos-512.png"></a>
+    <a href=""><img id="telegramm"class="socials"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/600px-Telegram_logo.svg.png"></a>
+    <a href=""><img id="gmaill"class="socials"  src="https://image.flaticon.com/icons/png/512/281/281769.png"></a>
+    <a href=""><img id="twitterr"class="socials"  src="https://upload.wikimedia.org/wikipedia/sco/thumb/9/9f/Twitter_bird_logo_2012.svg/1200px-Twitter_bird_logo_2012.svg.png"></a>
+    </div>
+</div>
+</div>
+
+
 <p id="price1" class="price">Price: $220.3</p>
-<button id="buy1" class="buy">Buy</button>
+<button onlick="buyb()" id="buy1" class="buy">Buy</button>
 <div id="prod2"class="products">
 
 </div>
 <p id="price2" class="price">Price: $100.49</p>
-<button id="buy2" class="buy">Buy</button>
+<button onlick="buyb1()" id="buy2" class="buy">Buy</button>
 <div id="prod3" class="products">
 
 </div>
 <p id="price3" class="price">Price: $159.99</p>
-<button id="buy3" class="buy">Buy</button>
+<button onlick="buyb2()" id="buy3" class="buy">Buy</button>
 <div id="prod4" class="products">
     
 </div>
 <p id="price4" class="price">Price: $308.99</p>
-<button id="buy4" class="buy">Buy</button>
+<button onlick="buyb3()" onlick="buyb()" id="buy4" class="buy">Buy</button>
 
 <div id="prod5" class="products">
 
 </div>
 <p id="price5" class="price">Price: $1240</p>
-<button id="buy5" class="buy">Buy</button>
+<button onlick="buyb4()" id="buy5" class="buy">Buy</button>
   </div>
   <div id="prod6" class="products">
 
   </div>
   <p id="price6">Price: N/A</p>
-  <button id="buy6" class="buy">Buy</button>
+  <button onlick="buyb5()" id="buy6" class="buy">Buy</button>
 </div>
 </div>
 <footer>
@@ -105,6 +127,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 <p id="copy3" class="titles">All products are legal unless used or done in an illegal way! So do everything at your own risk and don't blame us for you getting in trouble because of your stupidity</p>
 <p id="copy">Copyright © 2020 Legion, All Rights Reserved</p>
 </footer>
+<script>
 
+</script>
     </body>
 </html>
