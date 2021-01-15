@@ -16,7 +16,7 @@
 * You can fork this and add to you Github Repos for free
 
 # Contacts
-![Discord Banner 2](https://discordapp.com/api/guilds/https://discord.gg/yVRYptSR/widget.png?style=banner2)
+![Discord Banner 2](https://discordapp.com/api/guilds/yVRYptSR/widget.png?style=banner2)
 
 
 
