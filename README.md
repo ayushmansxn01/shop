@@ -1,4 +1,4 @@
-# LEGION SHOP
+<h1 style="color:red">Legion-Shop</h1>
 ## Fully Responsive & Well Designed
 ![Github Banner](.github/img/shop-github-banner.jpg)
 
