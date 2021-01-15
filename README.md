@@ -17,5 +17,5 @@
 
 # Usually Present In
 ![Discord](https://cdn.iconscout.com/icon/free/png-256/discord-2474808-2056094.png)
-![Github](https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg)
+![Github](https://github.githubassets.com/images/modules/logos_page/Octocat.png)
 
