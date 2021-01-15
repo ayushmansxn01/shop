@@ -1,7 +1,15 @@
-  async function loader(){
+
+$('.buy').click(function(){
+    $('.login').show(1000);
+})
+
+$('.xx').click(function(){
+    let login = $('.login').hide(1000);
+})
+        async function loader(){
           $('#loader').hide(1000);
         }
-        setTimeout(loader,1500);
+        setTimeout(loader,1000);
     const megamove = () =>{
         let mega = document.getElementById('mega');
         anime({
