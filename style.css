@@ -1,5 +1,4 @@
-
-      #loader{
+    #loader{
           position:fixed;
           left: 0%;
           z-index: 2;
@@ -392,7 +391,7 @@ top: 195%;
 .buy{
     position:absolute;
     border: 1px solid rgb(102, 49, 49);
-    background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRpJ-Wpg1F6jwPGzZ5MbGcdTU3CbIviwepVw&usqp=CAU');
+    background:green;
    width: 10%;
    height:22%;
    font-size: 3vh;
@@ -400,6 +399,10 @@ top: 195%;
    border-radius: 10px;
    box-shadow: 0px 4px 10px 2px rgb(71, 70, 70);
 
+}
+.buy:hover{
+    background-color: rgb(8, 187, 23);
+    box-shadow: 0px 2px 10px 0px black;
 }
 #buy1{
     top: 157%;
@@ -429,6 +432,107 @@ top: 195%;
     left: 87%;
 }
 /*END PRICES FOR PC*/
+
+/*FORM FOR PC*/
+.xx{
+    font-size: 6vh;
+    border: 1px solid black;
+    width: 15%;
+    height: 10%;
+    text-align: center;
+    left: 85%;
+    position: absolute;
+    background-color: rgb(155, 18, 18);
+}
+.xx:hover{
+    background-color: rgb(190, 16, 16);
+}
+.login{
+    position: fixed;
+    width: 60%;
+    height: 85%;
+    background-color: rgb(53, 52, 52);
+    z-index: 999;
+    box-shadow: 0px 3px 25px 10px black;
+    bottom: 30%;
+    top: 10%;
+    left: 20%;
+    display: none;
+
+}
+.avatarin0{
+    width: 20%;
+    height: 30%;
+    position: absolute;
+    left: 40%;
+    border-radius: 100px;
+    top: 0%;
+}
+.h2f{
+    font-size: 9vh;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+.prodshow{
+    width:70%;
+    height:35%;
+    position: absolute;
+    left: 15%;
+    top: 40%;
+    
+}
+.prodshow1{
+    background:url('https://upload.wikimedia.org/wikipedia/commons/f/f1/Raspberry_Pi_4_Model_B_-_Side.jpg');
+    width:70%;
+    height:35%;
+    position: absolute;
+    left: 15%;
+    top: 40%;
+    
+}
+#h2f2{
+    font-size: 9vh;
+   left: 38%;
+   position: absolute;
+    top:21%;
+    text-shadow: 0px 10px 20px 5px black;
+}
+#email{
+    position: absolute;
+    top: 37%;
+    left: 30%;
+    background-color: black;
+    font-size: 6vh;
+}
+.socials{
+width: 20%;height: 50%;
+position: absolute;
+}
+#githubb{
+top: 60%;
+left: 20%
+}
+#discordd{
+    top: 61%;
+    left:37%;
+    
+}
+#telegramm{
+    top: 60%;
+    left: 60%;
+}
+#gmaill{
+    top: 115%;
+    left: 30%;
+}
+
+#twitterr{
+    top: 115%;
+    left: 50%;
+}
+
+/*END FOR FOR PC*/
       }
      
       @media(max-width: 768px){
@@ -667,34 +771,131 @@ top: 30%;
 }
 #buy1{
 top: 34%;
-left:44%;
+left:50%;
 }
 #buy2{
 top: 66.5%;
-left:44%;
+left:50%;
 }
 #buy3{
     top: 98.5%;
-    left:44%;
+    left:50%;
     
 }
 #buy4{
     top: 130.3%;
-left:44%;
+left:50%;
 height: 4.5%;
 }
 #buy5{
     top: 161.3%;
-    left:44%;
+    left:50%;
 height: 4.5%;
 }
 #buy6{
     top: 192%;
-    left:44%;
+    left:50%;
 }
 /*LINKIES DISPLAY NONE FOR MOBILE*/
 #linkies{
     display: none;
 }
 /*END LINKIES DISPLAY NONE FOR MOBILE*/
+
+/*FORM FOR MOBILE*/
+.xx{
+    font-size: 6vh;
+    border: 1px solid black;
+    width: 15%;
+    height: 10%;
+    text-align: center;
+    left: 85%;
+    position: absolute;
+    background-color: rgb(155, 18, 18);
+}
+.xx:hover{
+    background-color: rgb(190, 16, 16);
+}
+.login{
+    position: fixed;
+    width: 90%;
+    height: 85%;
+    background-color: rgb(53, 52, 52);
+    z-index: 999;
+    box-shadow: 0px 3px 25px 10px black;
+    bottom: 30%;
+    top: 10%;
+    left: 5%;
+    display: none;
+
+}
+.avatarin0{
+    width: 40%;
+    height: 30%;
+    position: absolute;
+    left: 30%;
+    border-radius: 100px;
+    top: 0%;
+}
+.h2f{
+    font-size: 9vh;
+    position: absolute;
+    top: 26%;
+    left: 25%;
+}
+.prodshow{
+    width:70%;
+    height:35%;
+    position: absolute;
+    left: 15%;
+    top: 40%;
+    
+}
+.prodshow1{
+    background:url('https://upload.wikimedia.org/wikipedia/commons/f/f1/Raspberry_Pi_4_Model_B_-_Side.jpg');
+    width:70%;
+    height:35%;
+    position: absolute;
+    left: 15%;
+    top: 40%;
+    
+}
+#h2f2{
+    font-size: 7vh;
+   left: 23%;
+   position: absolute;
+    top:30%;
+}
+#email{
+    position: absolute;
+    top: 37%;
+    left: 3%;
+    background-color: black;
+    font-size: 6vh;
+}
+.socials{
+width: 30%;height: 50%;
+position: absolute;
+}
+#githubb{
+top: 60%;
+}
+#discordd{
+    top: 61%;
+    left: 30%;
+    
+}
+#telegramm{
+    top: 60%;
+    left: 70%;
+}
+#gmaill{
+    top: 115%;
+    left: 0%;
+}
+
+#twitterr{
+    top: 115%;
+    left: 35%;
+}
 }
