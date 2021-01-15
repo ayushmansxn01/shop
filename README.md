@@ -17,5 +17,8 @@
 
 # Usually Present In
 ![Discord](https://cdn.iconscout.com/icon/free/png-256/discord-2474808-2056094.png)
-![Github](https://github.githubassets.com/images/modules/logos_page/Octocat.png)
 
+# Disclaimer 
+When you download this github repo it is now yours and whatever you do to it is within the scope
+of your responsibility. 
+So use this legally and not for any illegal purposes.
