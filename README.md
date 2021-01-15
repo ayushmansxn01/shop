@@ -1,6 +1,6 @@
 # Shop
 ## Fully responsive && Well designed shop!
-![Fully responsive && Well designed shop!](https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/83/e258e0532611e5a5072321239ff4d4/jhep-coursera-course4.png?auto=format%2Ccompress&dpr=1)
+![Fully responsive && Well designed shop!](https://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png)
 
 This Shop is made using  HTML5 CSS3 & JAVASCRIPT
 
