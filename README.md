@@ -16,7 +16,7 @@
 * You can fork this and add to you Github Repos for free
 
 # Usually Present In
-<img src="https://cdn.iconscout.com/icon/free/png-256/discord-2474808-2056094.png" width=300>
+<img src="https://cdn.iconscout.com/icon/free/png-256/discord-2474808-2056094.png" width=150>
 
 # Check out the Github Page of AL104/abalesluke
 ![github](https://avatars0.githubusercontent.com/u/47096239?s=460&u=4b55274016bb698b857358cf0b4efe4b0365733f&v=4)
