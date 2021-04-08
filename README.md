@@ -1,6 +1,6 @@
 # 👨‍💻 Shop
 ## Fully responsive && Well designed shop!
-<img src="shop.png" width=500>
+<img src="shop.png" width=500></img>
 
 # This Shop is made using  HTML5 CSS3 & JAVASCRIPT
 
