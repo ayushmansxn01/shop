@@ -149,9 +149,9 @@ top: 5%;
 #toxic{
     position: $constant;
     width: 20vh;
-    height: 20vh;
+    height: 12vh;
     left: 45%;
-    border: 1px solid rgb(0, 197, 66);
+    
 }
 /*FOOTER TITLES*/
 .titles{
@@ -680,9 +680,9 @@ footer{
 #toxic{
     position: absolute;
     width: 30%;
-    height: 23%;
+    height: 20%;
     left: 34%;
-    border:1px solid white;
+   
 }
 #term{
     position: absolute;
@@ -907,5 +907,6 @@ top: 60%;
 #twitterr{
     top: 115%;
     left: 35%;
+    height: 25%;
 }
 }
